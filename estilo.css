@@ -1,108 +1,68 @@
-html, body{
-    font-family: "Roboto", serif;
-    
+html,
+body {
+    height: 100%;
 }
 
-header{
-    display: flex;
-    background-color: #162028;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
-    font-family: "Viaoda Libre", serif;
-}
-
-.logo a{
-    text-decoration: none;
-    color: white;
-    margin-left: 20rem;
-
-}
-
-.navegacao{
-    display: flex;
-    gap: 5rem;
-    margin-right: 3rem;
-}
-
-.navegacao a{
-    text-decoration: none;
-    color: #425564;
-}
-
-.modelo img{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.cont{
-    text-align: center;
-    font-family: "Viaoda Libre", serif;
-    font-size: 50px;
-}
-
-.conteudo {
-    text-align: center;
-    color: #555;
-    font-size: 20px;
-    max-width: 62rem;
-    line-height: 2.5rem;
-    margin-left: 20%;
-}
-
-.fotos-modelos {
-    display: flex;
-    justify-content: center;
-    gap: 3rem;
-    margin-bottom: 3rem;
-}
-
-.fotos-modelos img{
-    width: 20rem;
-}
-
-.estilo-roupa, .qualidade{
-    text-align: center;
-    text-transform: uppercase;
-    color: #555;
-    font-size: bold;
-}
-
-.fundo-blue{
-    background-image: url(bg_detalhe.png);
-    background-repeat: no-repeat;
+body {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url(bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo{
+    text-transform: uppercase;
+    color: white;
+    font-size: 52px;
+    text-shadow: 2px 2px 4px black;
+    margin-top: 100px;
+}
+
+.ancoragem a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-bottom: 2px solid white;
+    padding: 15px;
+
+}
+
+.box-geral{
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 840px;
     justify-content: center;
-    text-align: center;
-    background-size: 100%;
-    padding: 10rem;
-
+    margin-top: 35px;
+    padding: 15px;
+    gap: 15px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
 }
 
-footer{
-    background-color: #0b171f;
-    color:  #6f8597;
-    margin-top: 0;
-    text-align: center;
-    font-size: 1rem;
-    padding: 2rem;
-    letter-spacing: 5px;
-}
-
-.fundo-blue .texto-final{
-    align-self: flex-start;
+.box-text{
+    background-color: rgba(0, 0, 0, .7);
     color: white;
-    font-family: "Viaoda Libre", serif;
-    font-size: 50px;
+    padding: 5px;
     text-align: left;
-    max-width: 70rem;
+    padding-left: 10px;
 }
 
-.cont-final{
-    color: white;
-    text-align: left;
-    max-width: 40rem;
-    font-size: 18px;
+.box-image{
+    height: 150px;
+}
+
+.box-1 img, p{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
 }
