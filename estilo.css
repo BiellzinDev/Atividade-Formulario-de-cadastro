@@ -1,0 +1,108 @@
+html, body{
+    font-family: "Roboto", serif;
+    
+}
+
+header{
+    display: flex;
+    background-color: #162028;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    font-family: "Viaoda Libre", serif;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20rem;
+
+}
+
+.navegacao{
+    display: flex;
+    gap: 5rem;
+    margin-right: 3rem;
+}
+
+.navegacao a{
+    text-decoration: none;
+    color: #425564;
+}
+
+.modelo img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cont{
+    text-align: center;
+    font-family: "Viaoda Libre", serif;
+    font-size: 50px;
+}
+
+.conteudo {
+    text-align: center;
+    color: #555;
+    font-size: 20px;
+    max-width: 62rem;
+    line-height: 2.5rem;
+    margin-left: 20%;
+}
+
+.fotos-modelos {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.fotos-modelos img{
+    width: 20rem;
+}
+
+.estilo-roupa, .qualidade{
+    text-align: center;
+    text-transform: uppercase;
+    color: #555;
+    font-size: bold;
+}
+
+.fundo-blue{
+    background-image: url(bg_detalhe.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-size: 100%;
+    padding: 10rem;
+
+}
+
+footer{
+    background-color: #0b171f;
+    color:  #6f8597;
+    margin-top: 0;
+    text-align: center;
+    font-size: 1rem;
+    padding: 2rem;
+    letter-spacing: 5px;
+}
+
+.fundo-blue .texto-final{
+    align-self: flex-start;
+    color: white;
+    font-family: "Viaoda Libre", serif;
+    font-size: 50px;
+    text-align: left;
+    max-width: 70rem;
+}
+
+.cont-final{
+    color: white;
+    text-align: left;
+    max-width: 40rem;
+    font-size: 18px;
+}
